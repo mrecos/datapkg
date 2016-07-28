@@ -26,7 +26,7 @@ datapkg_write <- function(data, name, path = getwd()){
     list(list(
       path = csv_name,
       name = name,
-      date = Sys.time(),
+      save_date = Sys.time(),
       schema = make_schema(data)
     ))
   )
